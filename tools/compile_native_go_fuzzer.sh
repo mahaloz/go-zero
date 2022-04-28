@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 ################################################################################
+#
+# The following code is rewritten by mahaloz and taken directly from Google OSS-Fuzz platform
+# to make compiling 1.18 Go binaries to libfuzzer possible outside of the bulky OSS-Fuzz container
+#
 
 function rewrite_go_fuzz_harness() {
         fuzzer_filename=$1
