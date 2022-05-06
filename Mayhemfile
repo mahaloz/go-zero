@@ -1,5 +1,5 @@
 project: go-zero
-target: go-zero-stringx
+target: stringx-replacer
 
 cmds:
   - cmd: /fuzz_stringx_replacer
